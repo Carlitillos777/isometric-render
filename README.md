@@ -2,7 +2,7 @@
 
 Client-side Minecraft 1.12.2 mod that turns any area of your world into a clean isometric PNG.
 
-![Example render](docs/render.png)
+![The Isometric Render window](docs/ui.png)
 
 ## Install
 
