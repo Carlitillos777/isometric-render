@@ -2,8 +2,6 @@
 
 Client-side Minecraft 1.12.2 mod that turns any area of your world into a clean isometric PNG.
 
-![The Isometric Render window](docs/ui.png)
-
 ## Install
 
 Download the file for your loader from [Releases](../../releases) and put it in your `mods` folder:
@@ -21,6 +19,9 @@ Client only, so it also works on servers that don't have it.
 1. Type `/isorender area x1 y1 z1 x2 y2 z2` with the two opposite corners of the area.
    Tip: look at a block and press **Tab** to fill in its coordinates. Do it once per corner.
 2. The render window opens:
+
+   ![The Isometric Render window](docs/ui.png)
+
    - **Drag** the preview to move it, **scroll** to zoom.
    - **Scale**, **Rotation** and **Slant** change the view; **Dimetric** / **Isometric** are quick presets, **Reset View** goes back.
 3. Export with **1024**, **2048**, **4096**, or type a size and press **Export** (up to 8192).
