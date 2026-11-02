@@ -1,0 +1,13 @@
+{
+    "required": true,
+    "package": "com.isometricrender.mixin",
+    "compatibilityLevel": "JAVA_8",
+    "client": [
+        "MinecraftClientMixin",
+        "ChatMixin",
+        "GuiChatMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}

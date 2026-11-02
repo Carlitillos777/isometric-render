@@ -1,0 +1,23 @@
+{
+    "schemaVersion": 1,
+    "id": "isometric-render",
+    "version": "${version}",
+    "name": "Isometric Render",
+    "description": "Render isometric images of selected areas in your world",
+    "authors": ["IsometricRender Team"],
+    "contact": {},
+    "license": "MIT",
+    "environment": "client",
+    "entrypoints": {
+        "client": [
+            "com.isometricrender.IsometricRenderMod"
+        ]
+    },
+    "mixins": [
+        "isometric-render.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.14.0",
+        "minecraft": "1.12.2"
+    }
+}

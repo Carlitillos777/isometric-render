@@ -1,0 +1,13 @@
+[{
+  "modid": "isometricrender",
+  "name": "Isometric Render",
+  "description": "Renders world areas as isometric images. Use /isorender area x1 y1 z1 x2 y2 z2",
+  "version": "1.0.0",
+  "mcversion": "1.12.2",
+  "url": "",
+  "authorList": [],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}]
