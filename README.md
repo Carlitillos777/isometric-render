@@ -25,7 +25,7 @@ Client only, so it also works on servers that don't have it.
    - **Drag** the preview to move it, **scroll** to zoom.
    - **Scale**, **Rotation** and **Slant** change the view; **Dimetric** / **Isometric** are quick presets, **Reset View** goes back.
 3. Export with **1024**, **2048**, **4096**, or type a size and press **Export** (up to 8192).
-   Images are saved with a transparent background to `.minecraft/renders/isometric_<date>.png`.
+   Images are saved with a transparent background to `.minecraft/renders/<resolution>px_<date>.png` (for example `2048px_2026-11-02_14-30-00.png`).
    **Copy to Clipboard** copies the image instead.
 
 ## Build

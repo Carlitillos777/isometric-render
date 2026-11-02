@@ -242,7 +242,7 @@ public class IsometricRenderScreen extends GuiScreen {
         } else {
             File dir = new File(mc.gameDir, "renders");
             dir.mkdirs();
-            String fn = "isometric_" + new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss").format(new Date()) + ".png";
+            String fn = res + "px_" + new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss").format(new Date()) + ".png";
             try {
                 ImageIO.write(img, "PNG", new File(dir, fn));
                 setStatus("\u00a7aSaved \u2192 renders/" + fn);

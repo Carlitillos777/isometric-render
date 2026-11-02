@@ -309,7 +309,7 @@ public class WorldRenderer {
         try {
             File dir = new File(mc.mcDataDir, "renders");
             dir.mkdirs();
-            String name = "isometric_" + new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss").format(new Date()) + ".png";
+            String name = img.getWidth() + "px_" + new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss").format(new Date()) + ".png";
             ImageIO.write(img, "PNG", new File(dir, name));
         } catch (Exception e) {
             System.err.println("[IsoRender] Export failed: " + e.getMessage());
